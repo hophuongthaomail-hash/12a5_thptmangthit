@@ -1,0 +1,319 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> Welcom To 12A5 </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Roboto+Flex:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+    
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Roboto Flex', sans-serif;
+      background: #f3f6fb;
+      color: #333;
+      line-height: 1.7;
+    }
+
+header {
+  background: linear-gradient(135deg, #7099c0, #4f79a7);
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-family: 'Crimson Text', serif;
+  font-size: 46px;
+  letter-spacing: 1px;
+}
+
+header p {
+   margin-top: 14px;
+   font-size: 18px;
+   font-style: italic;
+   opacity: 0.95;
+}
+
+nav {
+  position: sticky;
+    top: 0;
+    background: #4f79a7;
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+}
+
+nav a {
+  color: white;
+    padding: 16px 26px;
+   text-decoration: none;
+    font-weight: 500;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+  background: rgba(255,255,255,0.2);
+}
+
+section { padding: 90px 20px;}
+.section-content {
+    max-width: 1200px;
+    margin: auto;
+    background: white;
+    border-radius: 22px;
+    padding: 50px 55px;
+    box-shadow: 0 16px 35px rgba(0,0,0,0.08);
+}
+
+section h2 {
+  font-family: 'Crimson Text', serif;
+    font-size: 36px;
+    margin-bottom: 28px;
+    text-align: center;
+}
+
+ section p {
+    font-size: 18px;
+    margin-bottom: 12px;
+    text-align: center;
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+.section-line {
+  width: 228px;
+  height: 2px;
+  background: #1c1f24;
+  margin: 18px auto 28px;
+  border-radius: 10px;
+}
+
+
+  #home h2 { font-size: 48px; }
+
+  #home p {
+   max-width: 720px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.image-row {
+  display: flex;
+    gap: 26px;
+    justify-content: center;
+    margin-top: 45px;
+    flex-wrap: wrap;
+}
+.img-box {
+    width: 30%;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    border-radius: 18px;
+    box-shadow: 0 14px 32px rgba(0,0,0,0.18);
+}
+.image-row img {
+  width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.4s;
+}
+
+.img-box:hover img {
+  transform: scale(1.06);
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 24px;
+    margin-top: 35px;
+}
+
+.info-box {
+  background: linear-gradient(135deg, #f6f9ff, #eef4ff);
+  border-radius: 18px;
+  padding: 20px 18px;
+  text-align: center;
+  box-shadow: 0 12px 28px rgba(0,0,0,0.06);
+  transition: transform 0.3s;
+}
+
+.info-box:hover {
+  transform: translateY(-6px);
+
+.info-box h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #4f79a7;}
+}
+
+ul { margin-left: 20px; }
+
+footer {
+  background: #263238;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  font-size: 14px;
+}
+
+#lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.85);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+} 
+#lightbox img {
+  max-width: 92%;
+  max-height: 92%;
+  border-radius: 16px;
+  box-shadow: 0 0 40px rgba(255,255,255,0.25);
+}
+
+@media (max-width: 768px) {
+  header h1 { font-size: 34px; }
+  section { padding: 70px 15px; }
+  .section-content { padding: 40px 25px; }
+  .img-box { width: 100%; }
+}
+
+.about-image {
+  width: 100%;
+  max-width: 700px;
+  margin: 40px auto;
+  border-radius: 18px;
+  overflow: hidden; 
+  box-shadow: 0 16px 32px rgba(0,0,0,0.18);
+}
+
+.about-image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>CHI ĐOÀN 12A5 – TRƯỜNG THPT MANG THÍT </h1>
+  <p>Đoàn kết – Nỗ lực – Trưởng thành</p>
+</header>
+
+<nav>
+  <a href="#home">Trang Chủ</a>
+  <a href="#about">Giới Thiệu</a>
+  <a href="#activities">Hoạt Động</a>
+  <a href="#contact">Liên Hệ</a>
+</nav>
+
+<section id="home">
+    <h2> WELCOME TO 12A5 :3</h2>
+    <p>Chào mừng bạn đến với tập thể A5 Niên Khoá 2023-2026 THPT MANG THÍT.
+     Đây là nơi chúng mình chọn để lưu giữ những kỷ niệm của thanh xuânn cấp 3 áaa</p>
+
+    <div class="image-row">
+      <div class="img-box"><img src="images/IMG_20250331_172638.jpg"></div>
+      <div class="img-box"><img src="images/lop115.png"></div>
+      <div class="img-box"><img src="images/IMG_20251025_175540.jpg"></div>
+    </div>
+</section>
+<br>
+
+<section id="about">
+  <div class="section-content">
+     <h2>Giới Thiệu</h2>
+    <div class="section-line"></div>
+  <div class="info-grid">
+    <div class="info-box"><h3>Sĩ số</h3><p>36 học sinh</p></div>
+    <div class="info-box"><h3>GVCN</h3><p>Nguyễn Thị Minh Khoa</p></div>
+    <div class="info-box"><h3>Trường</h3><p>THPT Mang Thít</p></div>
+     </div>
+ <br>
+ <br>
+      <p>12A5 là một tập thể trẻ trung, hòa đồng và luôn tràn đầy năng lượng tích cực.<br>Bạn biết điều tuyệt vời nhất của một tấm ảnh là gì không, là nó sẽ không bao giờ thay đổi dù cho những người trong tấm ảnh đã đổi thay.</p>
+    <div class="about-image">
+     <img src="images/IMG_20251025_175540.jpg" alt="Ảnh tập thể A5"></div>
+</div>
+</section>
+
+<section id="activities">
+  <div class="section-content">
+    <h2>Hoạt Động</h2>
+    <div class="section-line"></div>
+        <p><b>Tham Gia Hội Xuân</b></p>
+         <div class="image-row">
+    <div class="img-box">
+            <img src="images/IMG_hoixuan.jpg">
+         </div>
+    <div class="img-box">
+            <img src="images/IMG_hoixuan1.jpg">
+        </div>
+    <div class="img-box">
+            <img src="images/IMG_hat.jpg">
+        </div>
+       </div>
+<br>
+
+        <p><b>Một Số Hoạt Động Khác </b></p>
+        <div class="image-row">
+    <div class="img-box"><img src="images/retouch_2025100507582560.jpg">
+         </div>
+    <div class="img-box"><img src="images/retouch_2025100508310171.jpg">
+        </div>
+   <div class="img-box"> <img src="images/IMG_20251025_175555.jpg">
+        </div>
+    <div class="img-box"> <img src="images/IMG_20251021_120737.jpg">
+        </div>
+    <div class="img-box"> <img src="images/IMG_20260125_123849_099.jpg">
+        </div>
+    <div class="img-box"> <img src="images/IMG_20250415_165014_1.jpg">
+        </div>
+    <div class="img-box"> <img src="images/IMG_20260110_204936.jpg">
+        </div>
+    <div class="img-box"> <img src="images/IMG_20250415_150824.jpg">
+        </div>
+  </div>
+   
+
+</section>
+ 
+
+<section id="contact">
+   <h2>Liên Hệ</h2>
+   <div class="section-line"></div>
+    <p>Email: hophuongthao.mail@gmail.com</p>
+    <p>TikTok: 11a5.08</p>
+    <p>Địa chỉ: THPT Mang Thít, Cái Nhum, Vĩnh Long, Việt Nam</p>
+</section>
+
+<footer>
+   <p>© 2026 - WEBSITE CREATED BY 12A5</p>
+</footer>
+
+<script>
+document.querySelectorAll('.image-row img').forEach(img => {
+  img.onclick = () => {
+    document.getElementById('lightbox').style.display = 'flex';
+    document.getElementById('lightbox-img').src = img.src;
+  }
+});
+</script>
+
+
+<div id="lightbox" onclick="this.style.display='none'">
+  <img id="lightbox-img">
+</div>
+
+</body>
+</html>
